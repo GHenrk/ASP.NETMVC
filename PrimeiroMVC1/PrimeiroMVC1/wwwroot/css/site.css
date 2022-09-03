@@ -14,40 +14,76 @@ html {
 }
 
 body {
-  margin-bottom: 60px;
-  background-color: black;
+    margin-bottom: 60px;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 10vw 1fr 1fr;
+    grid-template-rows: 4em 1fr 0em;
+    grid-template-areas: "cabecalho cabecalho cabecalho"
+                         "barraMenu conteudoBody conteudoBody"
+                         "footer footer footer";
 }
 
-.testeNv {
-    color: red;
-    font-size: 25px;
-}
-
-.paragrafo {
-    color: green;
+.cabecalho {
+    grid-area: cabecalho;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 4em;
+    background-color: gray;
 }
 
 .barraMenu {
-    background-color: white;
-    
-    height: 3em;
+    grid-area: barraMenu;
+    width: 10vw;
+    background-color: gray;
+    height: 100vh;
     display: flex;
-    align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 .listaMenu {
+    list-style: none;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    list-style: none;
-    gap: 2em;
-    margin-top:16px;
+    
+    gap: 1em;
+}
+
+.btnMenu {
+    border: none;
+    background-color: black;
+    color: white;
+    width:5em;
+
+    border-radius:0.5em;
+    padding: 0.5em;
+    box-sizing: border-box;
+
+    box-shadow: 1px 1px 10px whiteSmoke;
+}
+
+.btnMenu:hover {
+    background-color: orange;
+    transform: scale(1.1);
+    color: black;
+}
+
+.conteudoBody {
+    grid-area: conteudoBody;
+    text-align: center;
 }
 
 
-.btnMenu {
-    background-color: black;
-    color: white;
-    border-radius: 5px;
+.footer {
+    background-color: gray;
+    height: 4rem;
+    grid-area: footer;
+}
+
+.conteudoBody {
+    color: red;
 }

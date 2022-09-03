@@ -1,0 +1,14 @@
+﻿body {
+}
+
+.secaoHistoria {
+    color: whitesmoke;
+    width:50vw;
+    margin: 10em auto 5em auto;
+    text-align: center;
+}
+
+.imgSecaoHistoria {
+    margin: 2em 0;
+    width: 100%;
+}

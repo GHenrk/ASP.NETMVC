@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "SEXWUD8rDLSlwkpbGBfEEOPnD/7vncFa1QZHPXkG7uY=",
+  "Hash": "YAg1+Bg6mSchF6DGTGFogSibVQVz4WyrNZmrf36WO/g=",
   "Source": "PrimeiroMVC1",
   "BasePath": "_content/PrimeiroMVC1",
   "Mode": "Default",
@@ -66,6 +66,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\home.css"
+    },
+    {
+      "Identity": "C:\\Users\\HyperV\\Documents\\ASP.NETMVC\\PrimeiroMVC1\\PrimeiroMVC1\\wwwroot\\css\\reset.css",
+      "SourceId": "PrimeiroMVC1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HyperV\\Documents\\ASP.NETMVC\\PrimeiroMVC1\\PrimeiroMVC1\\wwwroot\\",
+      "BasePath": "_content/PrimeiroMVC1",
+      "RelativePath": "css/reset.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\reset.css"
     },
     {
       "Identity": "C:\\Users\\HyperV\\Documents\\ASP.NETMVC\\PrimeiroMVC1\\PrimeiroMVC1\\wwwroot\\css\\site.css",

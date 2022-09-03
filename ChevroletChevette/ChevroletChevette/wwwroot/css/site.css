@@ -1,0 +1,124 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 0px;
+}
+
+
+.barraTopo {
+    width: 100vw;
+    height: 5em;
+    position: fixed;
+    top: 0;
+  
+    background-color: black;
+    color: whitesmoke;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    box-sizing: border-box;
+}
+
+.secaoImgTitulo {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    align-items: center;
+}
+
+.imgBarra {
+    width: 5em;
+    height: 4em;
+}
+
+.linkTitulo, .linkMenu {
+    text-decoration: none;
+}
+
+
+.linkTitulo {
+    font-size: 2em;
+    font-style: italic;
+    color: whitesmoke;
+    text-shadow: -2px 3px #9c7345;
+
+    align-self: center;
+    box-sizing: border-box;
+    
+    transition: 1s;
+}
+
+.listaMenu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0 2em;
+}
+
+.linkMenu {
+    font-size: 1.4em;
+    color: whitesmoke;
+
+    text-shadow: -1px 2px #9c7345;
+    transition: 1s;
+}
+
+.linkMenu:hover, .linkTitulo:hover {
+        color: whiteSmoke;
+        transform: scale(1.1);
+        text-shadow: -3px 5px 5px #9c7345;
+        
+}
+
+
+.rodape {
+    width: 100vw;
+    position: absolute;
+    bottom: 0;
+    margin: auto;
+    box-sizing: border-box;
+    background-color: black;
+    padding: 1.5em;
+}
+
+
+.container {
+   width:80vw;
+   margin: 0 auto;
+}
+
+.textoRodape {
+    color: white;
+    text-align: center;
+    font-size: 1.1em;
+}
+
+.linkRodape {
+
+    text-decoration: none;
+    
+    color: white;
+
+
+    text-shadow: -1px 2px #9c7345;
+}
+
+.linkRodape:hover {
+    text-decoration: none;
+    color: white;
+}

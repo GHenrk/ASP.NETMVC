@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - ChevroletChevette</title>
+    <link rel="stylesheet" href="~/css/reset.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/ChevroletChevette.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/home.css" />
+    <link rel="stylesheet" href="~/css/historia.css" />
+    <link rel="stylesheet" href="~/css/modelos.css" />
+</head>
+<body>
+    <header>
+        <nav class="barraTopo">
+            <span class="secaoImgTitulo">
+            <a href="https://www.chevrolet.com.br/" target="_blank"><img src="~/img/gmImage.png" class="imgBarra" /></a>
+             <a class="linkTitulo" asp-area="" asp-page="/Index">Chevrolet Chevette</a>
+            </span>
+            <ul class="listaMenu">
+                <a class="linkMenu" asp-area="" asp-page="/Index">Sobre</a>       
+                <a class="linkMenu" asp-area="" asp-page="/Modelos">Modelos</a>
+                <a class="linkMenu" asp-area="" asp-page="/FichaTecnica">Ficha Ténica</a>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="rodape">
+            <p class="textoRodape">&copy; 2022 - Desenvolvido por <a href="https://www.github.com/Ghenrk" target="_blank" class="linkRodape">GHenrk</a></p> 
+      
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
