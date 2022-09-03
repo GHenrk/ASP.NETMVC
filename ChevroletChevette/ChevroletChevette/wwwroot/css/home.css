@@ -29,7 +29,7 @@
 }
 
 .tituloSecao {
-    text-align: center;
+    text-align: left;
     font-size: 1.5em;
     color: whitesmoke;
     margin-bottom: 2em;
@@ -45,7 +45,7 @@
 
 .conteudoTotalSobre {
     font-size: 1.2em;
-    text-align: center;
+    text-align: left;
     line-height: 1.3em;
 }
 
